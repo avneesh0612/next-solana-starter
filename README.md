@@ -17,7 +17,7 @@ You can deploy this template to Vercel with the button below:
 You can also clone & create this repo locally with the following command:
 
 ```bash
-npx create-next-app precedent --example "https://github.com/avneesh0612/next-solana-starter"
+npx create-next-app next-solana-starter --example "https://github.com/avneesh0612/next-solana-starter"
 ```
 
 ### Tools
