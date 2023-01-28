@@ -1,36 +1,34 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<a href="https://next-solana-starter.vercel.app">
+  <img alt="Next Solana Starter" src="https://user-images.githubusercontent.com/76690419/215271811-8f916458-5a14-4a89-883a-64080e890c2d.svg">
+</a>
 
-## Getting Started
+   
+# Next Solana Starter
 
-First, run the development server:
+An opinionated Next.js template for building Solana applications pre configured with Chakra UI, Next.js, Solana wallet adapter, ESlint, Prettier, and more.
+
+
+# One-click Deploy
+
+You can deploy this template to Vercel with the button below:
+
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Favneesh0612%2Fnext-solana-starter)
+
+You can also clone & create this repo locally with the following command:
 
 ```bash
-npm run dev
-# or
-yarn dev
+npx create-next-app precedent --example "https://github.com/avneesh0612/next-solana-starter"
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Tools
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+- [Chakra UI](https://chakra-ui.com/) – Accessible, composable, and themeable React components
+- [Fontsource](https://fontsource.org/) – Self-hosted fonts for Next.js
+- [Framer Motion](https://framer.com/motion) – Motion library for React to animate components with ease
+- [Next Seo](https://npmjs.com/package/next-seo) – SEO for Next.js
+- [Solana Wallet Adapter](https://github.com/solana-labs/wallet-adapter) – Modular TypeScript wallet adapters and components for Solana applications.
+### Code Quality
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- [TypeScript](https://www.typescriptlang.org/) – Static type checker for end-to-end typesafety
+- [Prettier](https://prettier.io/) – Opinionated code formatter for consistent code style
+- [ESLint](https://eslint.org/) – Pluggable linter for Next.js and TypeScript

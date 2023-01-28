@@ -25,6 +25,14 @@ const App = ({ Component, pageProps }: AppProps) => {
           url: metadata.url,
           type: 'website',
           siteName: metadata.title,
+          images: [
+            {
+              url: '/assets/og.svg',
+              width: 1200,
+              height: 630,
+              alt: metadata.title,
+            },
+          ],
         }}
         themeColor={theme.colors.black}
         title={metadata.title}
